@@ -1,0 +1,23 @@
+{
+  "inbounds": [{
+    "port": 端口,
+    "listen": "127.0.0.1",
+    "protocol": "socks",
+    "sniffing":
+    {
+      "enabled": true,
+      "destOverride": ["http", "tls"]
+    },
+    "settings":
+    {
+      "auth": "noauth",
+      "udp": false,
+      "userLevel": 10
+    },
+    "streamSettings":{"network":"ws","wsSettings":{"path":"/comebey520"}}
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
