@@ -1803,11 +1803,13 @@ if [[ "${action}" == "clearall" ]]; then
 elif [[ "${action}" == "monitor" ]]; then
 	crontab_monitor_ssr
 else
-	echo -e "  ShadowsocksR ComeBey一键管理脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
-          # youtube关注https://www.youtube.com/c/HasanW          #
-          # Twitter关注免费节点获取https://twitter.com/WangTao_Im #
-          # Instagram关注https://www.instagram.com/wangtao.lm/   #
-
+echo -e "
+  ShadowsocksR ComeBey一键管理脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
+  
+  1.youtube关注:https://bit.ly/38KzyU4
+  2.Twitter关注:免费节点获取https://twitter.com/WangTao_Im
+  3.博客关注:https://www.rootfw.com
+————————————
   ${Green_font_prefix}1.${Font_color_suffix} 安装 ShadowsocksR
   ${Green_font_prefix}2.${Font_color_suffix} 更新 ShadowsocksR
   ${Green_font_prefix}3.${Font_color_suffix} 卸载 ShadowsocksR
@@ -1819,13 +1821,13 @@ else
   ${Green_font_prefix}8.${Font_color_suffix} 手动 修改配置
   ${Green_font_prefix}9.${Font_color_suffix} 配置 流量清零
 ————————————
- ${Green_font_prefix}10.${Font_color_suffix} 启动 ShadowsocksR
- ${Green_font_prefix}11.${Font_color_suffix} 停止 ShadowsocksR
- ${Green_font_prefix}12.${Font_color_suffix} 重启 ShadowsocksR
- ${Green_font_prefix}13.${Font_color_suffix} 查看 ShadowsocksR 日志
+  ${Green_font_prefix}10.${Font_color_suffix} 启动 ShadowsocksR
+  ${Green_font_prefix}11.${Font_color_suffix} 停止 ShadowsocksR
+  ${Green_font_prefix}12.${Font_color_suffix} 重启 ShadowsocksR
+  ${Green_font_prefix}13.${Font_color_suffix} 查看 ShadowsocksR 日志
 ————————————
- ${Green_font_prefix}14.${Font_color_suffix} 其他功能
- ${Green_font_prefix}15.${Font_color_suffix} 升级脚本
+  ${Green_font_prefix}14.${Font_color_suffix} 其他功能
+  ${Green_font_prefix}15.${Font_color_suffix} 升级脚本
  "
 	menu_status
 	echo && read -e -p "请输入数字 [1-15]：" num
