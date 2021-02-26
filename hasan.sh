@@ -1807,8 +1807,7 @@ echo -e "
   ShadowsocksR ComeBey一键管理脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
   
   1.youtube关注:https://bit.ly/38KzyU4
-  2.Twitter关注:免费节点获取https://twitter.com/WangTao_Im
-  3.博客关注:https://www.rootfw.com
+  2.博客:https://www.rootfw.com
 ————————————
   ${Green_font_prefix}1.${Font_color_suffix} 安装 ShadowsocksR
   ${Green_font_prefix}2.${Font_color_suffix} 更新 ShadowsocksR
