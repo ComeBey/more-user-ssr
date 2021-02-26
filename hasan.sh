@@ -1803,11 +1803,11 @@ if [[ "${action}" == "clearall" ]]; then
 elif [[ "${action}" == "monitor" ]]; then
 	crontab_monitor_ssr
 else
-echo -e " ============================================================= "
-echo -e " \          ShadowsocksR ComeBey一键管理脚本                  / " 
-echo -e " \          1.youtube关注:https://bit.ly/38KzyU4             / " 
-echo -e " \          2.博客关注:https://www.rootfw.com                / " 
-echo -e " ============================================================= "
+echo -e "
+  ShadowsocksR ComeBey一键管理脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
+  
+  1.youtube关注:https://bit.ly/38KzyU4
+  2.博客关注:https://www.rootfw.com
 ————————————
   ${Green_font_prefix}1.${Font_color_suffix} 安装 ShadowsocksR
   ${Green_font_prefix}2.${Font_color_suffix} 更新 ShadowsocksR
