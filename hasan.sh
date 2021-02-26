@@ -1808,6 +1808,7 @@ echo -e "
   
   1.youtube关注:https://bit.ly/38KzyU4
   2.博客关注:https://www.rootfw.com
+  3.近期将更新本脚本功能2021/2/26
 ————————————
   ${Green_font_prefix}1.${Font_color_suffix} 安装 ShadowsocksR
   ${Green_font_prefix}2.${Font_color_suffix} 更新 ShadowsocksR
